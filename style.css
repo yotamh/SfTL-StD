@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: CentSchbookBTWGL4WXX-Roman, serif;
-    box-sizing: border-box;
     text-align: center;
     line-height: 1.125;
     background-color: gray;
@@ -31,8 +30,8 @@ body {
     position: fixed;
     color: white;
     width: 100%;
-    padding-left: 16%;
-    padding-right: 16%;
+    padding-left: 1%;
+    padding-right: 1%;
     z-index: 5;
     font-size: 2.5vh;
     mix-blend-mode: exclusion;
@@ -47,6 +46,12 @@ h1 {
     margin: 0;
     margin-bottom: -10px;
     margin-top: 15px;
+    font-weight: normal;
+}
+
+p {
+    padding-left: 16%;
+    padding-right: 16%;
 }
 
 @media screen and (min-width: 1025px) {
@@ -56,14 +61,14 @@ h1 {
 }
 
 @media screen and (max-width: 1024px) {
+    p,
     h1,
     .content {
-        font-size: 3.1vh;
-        margin: 0;
+        font-size: 18px;
         width: 100%;
         box-sizing: border-box;
-        padding-left: 6%;
-        padding-right: 6%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
 
