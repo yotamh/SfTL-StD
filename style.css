@@ -12,7 +12,8 @@
 .content {
     position: fixed;
     color: #f1f1f1;
-/*    width: 100%;*/
+    /*    width: 100%;*/
+    
     padding: 20px;
 }
 
@@ -31,10 +32,11 @@ body {
     /*    box-sizing: border-box;*/
     
     text-align: center;
-    font-size: 3vh;
-    color: #222;
+    font-size: 3.25vh;
+    /*    color: #222;*/
+    
     line-height: 1.125;
-/*    letter-spacing: -.015em*/
+    /*    letter-spacing: -.015em*/
 }
 
 #footer {
@@ -46,8 +48,11 @@ body {
     letter-spacing: .015em;
     line-height: 1.2;
     text-align: center;
+    padding: 20px;
 }
-a{
-    text-decoration: none;
-    color: #222;
+
+a {
+    /*    text-decoration: none;*/
+    
+    color: #f1f1f1;
 }
