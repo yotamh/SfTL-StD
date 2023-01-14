@@ -21,7 +21,7 @@ body {
 }
 
 #overlay {
-    background-image: url("/assets/bg/gifbgtest1.gif");
+    background-image: url("gifbgtest1.gif");
     height: 100%;
     width: 100%;
     position: absolute;
@@ -78,6 +78,6 @@ a {
 
 @font-face {
     font-family: CentSchbookBTWGL4WXX-Roman;
-    src: url(/assets/font/39EC05_0_0.eot);
-    src: url(/assets/font/39EC05_0_0.eot?#iefix) format("embedded-opentype"), url(/assets/font/39EC05_0_0.woff2) format("woff2"), url(/assets/font/39EC05_0_0.woff) format("woff"), url(/assets/font/39EC05_0_0.ttf) format("truetype")
+    src: url(39EC05_0_0.eot);
+    src: url(39EC05_0_0.eot?#iefix) format("embedded-opentype"), url(39EC05_0_0.woff2) format("woff2"), url(39EC05_0_0.woff) format("woff"), url(39EC05_0_0.ttf) format("truetype")
 }
