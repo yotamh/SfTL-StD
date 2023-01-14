@@ -1,36 +1,21 @@
-/* Style the video: 100% width and height to cover the entire window */
-
 body {
     margin: 0;
     padding: 0;
     font-family: CentSchbookBTWGL4WXX-Roman, serif;
-    /*    -ms-text-size-adjust: 100%;*/
-    /*    -webkit-text-size-adjust: 100%;*/
-    /*    -moz-osx-font-smoothing: grayscale;*/
-    /*    -webkit-font-smoothing: antialiased;*/
-    /*    box-sizing: border-box;*/
-    
+    box-sizing: border-box;
     text-align: center;
-    font-size: 3.25vh;
-    /*    color: #222;*/
-    
     line-height: 1.125;
-    /*    letter-spacing: -.015em*/
-    
     background-color: gray;
+    box-sizing: border-box;
 }
 
 #overlay {
-    background-image: url("/assets/bg/gifbgtest1.gif");
+    background-image: url("sftl-bg-01.gif");
     height: 100%;
     width: 100%;
     position: absolute;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    /*        opacity: .5;*/
-    /*        z-index: 999;*/
-    /*        mix-blend-mode: difference;*/
 }
 
 #myVideo {
@@ -40,18 +25,46 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
-/* Add some content at the bottom of the video/page */
 
 .content {
+    text-align: center;
     position: fixed;
     color: white;
-    /*    width: 100%;*/
-    
-    padding: 20px;
+    width: 100%;
+    padding-left: 16%;
+    padding-right: 16%;
     z-index: 5;
-    /*    opacity: .5;*/
-    
+    font-size: 2.5vh;
     mix-blend-mode: exclusion;
+    box-sizing: border-box;
+    opacity: .9;
+}
+
+h1 {
+    font-size: 12vh;
+    width: 100%;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: -10px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 1025px) {
+    h1 {
+        font-size: 12vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1,
+    .content {
+        font-size: 3.1vh;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
 }
 
 .content:hover {
@@ -59,7 +72,7 @@ body {
 }
 
 #footer {
-    font-size: 35%;
+    font-size: 50%;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -67,7 +80,8 @@ body {
     letter-spacing: .015em;
     line-height: 1.2;
     text-align: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {
@@ -78,6 +92,6 @@ a {
 
 @font-face {
     font-family: CentSchbookBTWGL4WXX-Roman;
-    src: url(/assets/font/39EC05_0_0.eot);
-    src: url(/assets/font/39EC05_0_0.eot?#iefix) format("embedded-opentype"), url(/assets/font/39EC05_0_0.woff2) format("woff2"), url(/assets/font/39EC05_0_0.woff) format("woff"), url(/assets/font/39EC05_0_0.ttf) format("truetype")
+    src: url(39EC05_0_0.eot);
+    src: url(39EC05_0_0.eot?#iefix) format("embedded-opentype"), url(39EC05_0_0.woff2) format("woff2"), url(39EC05_0_0.woff) format("woff"), url(39EC05_0_0.ttf) format("truetype")
 }
