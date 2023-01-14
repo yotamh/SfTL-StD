@@ -28,9 +28,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*    opacity: .9;*/
-    /*    z-index: 999;*/
-    /*    mix-blend-mode: difference;*/
+    /*        opacity: .5;*/
+    /*        z-index: 999;*/
+    /*        mix-blend-mode: difference;*/
 }
 
 #myVideo {
@@ -44,12 +44,18 @@ body {
 
 .content {
     position: fixed;
-    color: #f1f1f1;
+    color: white;
     /*    width: 100%;*/
     
     padding: 20px;
     z-index: 5;
-    mix-blend-mode: difference;
+    /*    opacity: .5;*/
+    
+    mix-blend-mode: exclusion;
+}
+
+.content:hover {
+    mix-blend-mode: normal;
 }
 
 #footer {
