@@ -1,16 +1,53 @@
 /* Style the video: 100% width and height to cover the entire window */
+
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* Add some content at the bottom of the video/page */
+
+.content {
+    position: fixed;
+    color: #f1f1f1;
+/*    width: 100%;*/
+    padding: 20px;
 }
 
-/* Add some content at the bottom of the video/page */
-.content {
-  position: fixed;
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+@font-face {
+    font-family: CentSchbookBTWGL4WXX-Roman;
+    src: url(/assets/font/39EC05_0_0.eot);
+    src: url(/assets/font/39EC05_0_0.eot?#iefix) format("embedded-opentype"), url(/assets/font/39EC05_0_0.woff2) format("woff2"), url(/assets/font/39EC05_0_0.woff) format("woff"), url(/assets/font/39EC05_0_0.ttf) format("truetype")
+}
+
+body {
+    font-family: CentSchbookBTWGL4WXX-Roman, serif;
+    /*    -ms-text-size-adjust: 100%;*/
+    /*    -webkit-text-size-adjust: 100%;*/
+    /*    -moz-osx-font-smoothing: grayscale;*/
+    /*    -webkit-font-smoothing: antialiased;*/
+    /*    box-sizing: border-box;*/
+    
+    text-align: center;
+    font-size: 3vh;
+    color: #222;
+    line-height: 1.125;
+/*    letter-spacing: -.015em*/
+}
+
+#footer {
+    font-size: 35%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    letter-spacing: .015em;
+    line-height: 1.2;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #222;
 }
