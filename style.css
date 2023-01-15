@@ -65,16 +65,18 @@ p {
     p,
     h1,
     .content {
-        font-size: clamp(2.5vh, 2vw, 1vw); 
+        font-size: clamp(2.5vh, 2vw, 1vw);
         width: 100%;
         box-sizing: border-box;
         padding-left: 2%;
         padding-right: 2%;
-/*        position: relative;*/
+        /*        position: relative;*/
+        
+        mix-blend-mode: normal;
     }
 }
 
-.content:hover:active {
+.content:hover {
     mix-blend-mode: normal;
 }
 
