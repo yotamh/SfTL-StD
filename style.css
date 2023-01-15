@@ -74,7 +74,7 @@ p {
     }
 }
 
-.content:hover {
+.content:hover:active {
     mix-blend-mode: normal;
 }
 
